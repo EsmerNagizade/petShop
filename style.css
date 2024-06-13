@@ -474,3 +474,11 @@ justify-content: center;
 
     background-color: #FFFFFF;
   }
+
+  .basket_bg{
+    background-image: url("./image/blue-shopping-trolley-blue_130265-7480.avif");
+    height: 50vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+  }
