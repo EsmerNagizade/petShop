@@ -53,6 +53,7 @@ align-items: center;
     border: none;
     background: none;
     height: 100%;
+    display:flex ;
 }
 .header_inp_container svg{
     width: 10%;
@@ -71,6 +72,7 @@ color: black;
     justify-content: space-between;
     gap: 5px;
 }
+.delivery span{display: flex;}
 select{
     border: none;
     background: none;
@@ -277,7 +279,7 @@ line-height: 18.75px;
    }
    .btns{
     margin-top: 42px;
-    max-width: 730px;
+    max-width: 810px;
     margin-left: auto;
     margin-right: auto;
     display: flex;
@@ -383,6 +385,9 @@ padding: 10px;
     gap: 20px;
    
   }
+  .bg_section_cards{
+    overflow-x: hidden;
+  }
   .bg_section_card{
 min-width: 277px;
 background: #FFFFFF;
@@ -482,3 +487,63 @@ justify-content: center;
     background-size: cover;
     background-position: bottom;
   }
+
+  .show{
+
+    display: block;
+  }
+  .hidden{
+    display: none;
+  }
+  .list_container{
+    position: relative;
+  }
+  .list_second{
+    position: absolute;
+    top: 5vh;
+    z-index: 999;
+     background-color: #fff;
+     width: 245px;
+padding-top: 19px;
+     display: none;
+     flex-direction: column;
+     padding-bottom: 15px;
+     border-radius: 5px;
+
+  }
+  .servis{
+    transform: rotate(180deg);
+  }
+  .list_second_active{
+    display: flex;
+  }
+  .list_second a{
+    color: #9A9A98;
+
+  }
+  .list_second li:hover{
+    background-color: #C4C4C438;
+  }
+  .list_second li a{
+    margin-left: 18px;
+font-size: 1,2rem;
+font-weight: 400;
+line-height: 14.06px;
+
+ 
+  }
+  .list_second li{
+    padding-top: 7px;
+    padding-bottom: 7px;
+  }
+  .list_first:hover .list_second{
+    display: flex !important;
+  }
+ 
+  nav i{
+    border-color: red;
+    width: 130px;
+    height: 150px;
+  }
+
+ 
